@@ -1,0 +1,9 @@
+numpy
+opencv-python
+scipy
+pandas
+os
+time
+matplotlib
+tqdm
+shutil
