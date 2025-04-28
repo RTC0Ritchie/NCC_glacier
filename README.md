@@ -14,7 +14,7 @@ The original file supports the input of *jpg* format images. The pre_process fil
 
 The code is structured to facilitate easy modification and extension by changing other classes and functions. Researchers can adjust parameters like kernel size and window size to suit their specific application needs. The modular design also allows for customization of image reading and preprocessing steps.
 
-The repository dataset and the sample file *statistics.xlsx* provided serves as a demonstration of FFT-based image matching techniques. Researchers are encouraged to adapt the code to their specific image datasets and application requirements. The Python dependencies required for running the code are listed in the requirements.txt file.
+The repository dataset and the sample file *statistics.xlsx* provided serves as a demonstration of FFT-based image matching techniques. Researchers are encouraged to adapt the code to their specific image datasets and application requirements. The Python dependencies required for running the code are listed in the *requirements.txt* file.
 
 We are grateful to *J. Deng* for providing us with ideas for improving the algorithm efficiency. URL: https://blog.csdn.net/djq_313/article/details/131178037
 
