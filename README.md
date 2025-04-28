@@ -10,7 +10,7 @@ Two core classes are included:
 
 *img2vxy_equal*: Provides methods for filling in unmatched points in the first search process using surrounding displacement information.
 
-The original file supports the input of *jpg* format images. The pre_process file can quickly convert the *Sentinel-2A/B* files downloaded by the European Space Agency into the format supported by NCC code.
+The original file supports the input of *jpg* format images. The *pre_process* file can quickly convert the *Sentinel-2A/B* files downloaded by the European Space Agency into the format supported by NCC code.
 
 The code is structured to facilitate easy modification and extension by changing other classes and functions. Researchers can adjust parameters like kernel size and window size to suit their specific application needs. The modular design also allows for customization of image reading and preprocessing steps.
 
