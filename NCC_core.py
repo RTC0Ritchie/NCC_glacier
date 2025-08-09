@@ -3,7 +3,7 @@
 """
 Image-to-displacement pipeline (Fourier + Equal-size correlation).
 Command-line usage:
-    python run_vxy.py img_size ker_size win_size startxy lengthxy basis_fold sta_name pict_file target_file maskurf
+    python run_vxy.py ker_size win_size startxy lengthxy basis_fold sta_name pict_file target_file maskurf
 All arguments are positional and required.
 """
 
@@ -1095,4 +1095,5 @@ def main():
 
 # ------------------------------------------------------------------
 if __name__ == '__main__':
+
     main()
