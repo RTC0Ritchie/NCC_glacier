@@ -1,0 +1,7 @@
+d = 0.257
+is_given_a = 1
+a_given = 1.8e-2
+is_given_dv = 0
+dv = 0
+gra_sta = Example\fit_example
+gra_sta_row = 3

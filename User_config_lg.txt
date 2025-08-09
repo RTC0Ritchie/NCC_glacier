@@ -1,0 +1,7 @@
+stride = 8
+velocity_fold = Example/result
+sta_name = Example/statistic
+target_output = Example/statistic_gra
+xrange = 1 10
+yrange = 1 10
+GRAtype = np

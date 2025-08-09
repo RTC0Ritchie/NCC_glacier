@@ -1,0 +1,11 @@
+img_size = 300
+ker_size = 45
+win_size = 201
+stride = 8
+startxy = 1459 2575
+lengthxy = 100 100
+basis_fold = Example/processing
+sta_name = Example/statistic
+pict_file = Example/jpg
+target_file = Example/result
+maskurf = None

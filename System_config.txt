@@ -1,0 +1,17 @@
+judgment_type = distance
+distance_num = 150
+distance_num_second = 500
+distance_point_num = 5
+distance_point_num_second = 5
+ci_low = 0.1
+ncctype = F-NCC
+picttype = jpg
+file_name = ['vx_', 'vy_', 'isprocessed_']
+subfolders = ['dataf', 'datae']
+isbreak = True
+is_equal_autosave = False
+spatial_resolution = 10
+is_need_interp = True
+nye_maxT = 1
+nye_tol = 1e-6
+nye_dt0 = 0.1
