@@ -1,0 +1,2 @@
+older,newer,time_interval_day,is_first,is_end
+YYYYMMDD,YYYYMMDD,int,0,0
