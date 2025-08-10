@@ -1,20 +1,23 @@
 **Introduction to Code**
 
-The provided code implements a Python-based image matching solution using the Fast Fourier Transform (FFT) and Normalized Cross Correlation (NCC) techniques to extract the **glacier surface velocity**. It is designed to perform precise displacement estimation between two images.
+This code currently provides two main functionalities:
+1. **Glacier Surface Velocity Extraction**: Utilizes cross-correlation techniques in the Fourier frequency domain (phase correlation) to extract glacier surface velocities based on two time-separated remote sensing images.
+2. **Glacier Strain Rate Estimation**: Estimates the strain rate along a selected line over the glacier.
 
-The code focuses on processing grayscale images (single band) with a defined search window and range. It employs a two-stage search strategy to extract glacier surface velocity. The initial rapid search focuses on efficiently obtaining highly reliable results. A subsequent refined search is then conducted to fill in the gaps left by the first search.
+## Getting Started
 
-Two core classes are included:
+Before using the code, you need to clone the entire repository to your local machine and install the required packages based on `requirements.txt`. Alternatively, you can use the `requirements.yml` file to create a conda environment automatically by running `conda env create -f requirements.yml`.
 
-*img2vxy_fourier*: Implements FFT-based image correlation for matching template images within a larger image.
+## Usage
 
-*img2vxy_equal*: Provides methods for filling in unmatched points in the first search process using surrounding displacement information.
+A detailed usage guide based on case studies is provided in the user manual *Help.doc*. The manual uses the Helheim Glacier as an example to illustrate how to use the code to achieve the specified functions. The completion of the case study relies on the files in the `Example` folder. Users can create their own folders and follow the instructions in the manual to add the corresponding files as needed.
 
-The original file supports the input of *jpg* format images. The *pre_process* file can quickly convert the *Sentinel-2A/B* files downloaded by the European Space Agency into the format supported by NCC code.
+## Limitations
 
-The code is structured to facilitate easy modification and extension by changing other classes and functions. Researchers can adjust parameters like kernel size and window size to suit their specific application needs. The modular design also allows for customization of image reading and preprocessing steps.
-
-The repository dataset and the sample file *statistics.xlsx* provided serves as a demonstration of FFT-based image matching techniques. Researchers are encouraged to adapt the code to their specific image datasets and application requirements. The Python dependencies required for running the code are listed in the *requirements.txt* file.
+- Currently, only the Sentinel-2 series is supported.
+- Only single-channel extraction is supported.
+- Images need to be preprocessed and converted to JPG or TIF format before use.
+- Data import (e.g., determination of extraction locations) still relies on pixel-level operations. Direct operations based on coordinates are under development.
 
 We are grateful to *J. Deng* for providing us with ideas for improving the algorithm efficiency. URL: https://blog.csdn.net/djq_313/article/details/131178037
 
