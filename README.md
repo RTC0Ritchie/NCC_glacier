@@ -10,7 +10,7 @@ Before using the code, you need to clone the entire repository to your local mac
 
 ## Usage
 
-A detailed usage guide based on case studies is provided in the user manual *Help.doc*. The manual uses the Helheim Glacier as an example to illustrate how to use the code to achieve the specified functions. The completion of the case study relies on the files in the `Example` folder. Users can create their own folders and follow the instructions in the manual to add the corresponding files as needed.
+A detailed usage guide based on case studies is provided in the user manual *Help.docx*. The manual uses the Helheim Glacier as an example to illustrate how to use the code to achieve the specified functions. The completion of the case study relies on the files in the `Example` folder. Users can create their own folders and follow the instructions in the manual to add the corresponding files as needed.
 
 ## Limitations
 
